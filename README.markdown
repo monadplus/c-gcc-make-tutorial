@@ -503,6 +503,32 @@ double getAverage(int *arr, int size) {
 
 See [return array from function in C](#return-array-from-function-in-c)
 
+### Passing functions as function parameters
+
+```c
+#include <stdio.h>
+
+void print(int x);
+void func(void (*f)(int));
+
+void print ( int x ) {
+  printf("%d\n", x);
+}
+
+void func ( void (*f)(int) ) {
+  for ( int ctr = 0 ; ctr < 5 ; ctr++ ) {
+    (*f)(ctr);
+  }
+}
+
+int main() {
+
+  func(print);
+
+  return 0;
+}
+```
+
 ## Strings
 
 ```c
