@@ -2,6 +2,8 @@
 
 Source: <https://www.tutorialspoint.com/cprogramming/index.htm>
 
+The GNU C Library: <https://www.gnu.org/software/libc/manual/html_mono/libc.html>
+
 ## Compiling
 
 Compiling `hello.c`:
