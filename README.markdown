@@ -1,6 +1,10 @@
 # Tutorial: C
 
-Source: <https://www.tutorialspoint.com/cprogramming/index.htm>
+Sources:
+
+- <https://www.tutorialspoint.com/cprogramming/index.htm>
+- <https://www.geeksforgeeks.org/c-programming-language>
+- <https://www.cplusplus.com/reference>
 
 The GNU C Library: <https://www.gnu.org/software/libc/manual/html_mono/libc.html>
 
@@ -112,8 +116,9 @@ register int miles;   // register
 ```
 
 __static__:
-  - local variables: keep the value between functions calls.
-  - global variables: restrict the scope to the file.
+
+- local variables: keep the value between functions calls.
+- global variables: restrict the scope to the file.
 
 ```c
 static int count = 5; // static

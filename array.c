@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int * getRandom( );
 
@@ -18,6 +20,7 @@ int main () {
 
 int * getRandom( ) {
 
+   // keep value between invocations
    static int  r[10];
    int i;
 
